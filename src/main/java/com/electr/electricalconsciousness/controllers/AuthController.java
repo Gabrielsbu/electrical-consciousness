@@ -1,9 +1,8 @@
 package com.electr.electricalconsciousness.controllers;
 
-
-import com.electr.electrical.domain.dto.auth.LoginDTO;
-import com.electr.electrical.domain.dto.usuario.UsuarioDTO;
-import com.electr.electrical.domain.services.AuthService;
+import com.electr.electricalconsciousness.domain.dto.auth.LoginDTO;
+import com.electr.electricalconsciousness.domain.dto.usuario.UsuarioDTO;
+import com.electr.electricalconsciousness.domain.services.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

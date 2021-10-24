@@ -1,7 +1,7 @@
 package com.electr.electricalconsciousness.authentication.filters;
 
-import com.electr.electrical.authentication.jwt.JWTConfig;
-import com.electr.electrical.domain.dto.auth.PayloadJwtDTO;
+import com.electr.electricalconsciousness.authentication.jwt.JWTConfig;
+import com.electr.electricalconsciousness.domain.dto.auth.PayloadJwtDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

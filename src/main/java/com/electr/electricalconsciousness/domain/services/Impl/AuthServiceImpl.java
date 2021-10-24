@@ -1,14 +1,14 @@
 package com.electr.electricalconsciousness.domain.services.Impl;
 
-import com.electr.electrical.authentication.jwt.JWTConfig;
-import com.electr.electrical.domain.dto.auth.LoginDTO;
-import com.electr.electrical.domain.dto.usuario.UsuarioDTO;
-import com.electr.electrical.domain.models.Usuario;
-import com.electr.electrical.domain.models.UsuarioPrincipal;
-import com.electr.electrical.domain.repositories.UsuarioRepository;
-import com.electr.electrical.domain.services.AuthService;
-import com.electr.electrical.domain.utils.UsuarioConverter;
-import com.electr.electrical.exceptions.AllException;
+import com.electr.electricalconsciousness.authentication.jwt.JWTConfig;
+import com.electr.electricalconsciousness.domain.dto.auth.LoginDTO;
+import com.electr.electricalconsciousness.domain.dto.usuario.UsuarioDTO;
+import com.electr.electricalconsciousness.domain.models.Usuario;
+import com.electr.electricalconsciousness.domain.models.UsuarioPrincipal;
+import com.electr.electricalconsciousness.domain.repositories.UsuarioRepository;
+import com.electr.electricalconsciousness.domain.services.AuthService;
+import com.electr.electricalconsciousness.domain.utils.UsuarioConverter;
+import com.electr.electricalconsciousness.exceptions.AllException;
 import lombok.*;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

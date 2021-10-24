@@ -16,16 +16,15 @@ public class Eletrodomestico {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long eletroId;
-    private String avatar;
     private String nome;
+
+    @OneToOne
+    private MediaPicture mediaPicture;
+
     private Integer quantidade;
     private Integer tempoEmHora;
     private Integer potencia;
     private Integer diasPorMes;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "simulacao_id")
-    private Simulacao simulacao;
 
     @Column(scale = 2, precision = 10)
     private float valorPorMes;

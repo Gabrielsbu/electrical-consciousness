@@ -1,6 +1,6 @@
 package com.electr.electricalconsciousness.controllers;
 
-import com.electr.electrical.domain.services.AWSService;
+import com.electr.electricalconsciousness.domain.services.AWSService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

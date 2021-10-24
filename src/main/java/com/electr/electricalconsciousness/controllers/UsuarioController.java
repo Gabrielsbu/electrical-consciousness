@@ -1,7 +1,7 @@
 package com.electr.electricalconsciousness.controllers;
 
-import com.electr.electrical.domain.dto.usuario.UsuarioDTO;
-import com.electr.electrical.domain.services.UsuarioService;
+import com.electr.electricalconsciousness.domain.dto.usuario.UsuarioDTO;
+import com.electr.electricalconsciousness.domain.services.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

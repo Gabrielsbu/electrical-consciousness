@@ -1,7 +1,7 @@
 package com.electr.electricalconsciousness.authentication.configuration;
 
-import com.electr.electrical.authentication.filters.JwtAuthenticationEntryPoint;
-import com.electr.electrical.authentication.filters.JwtAuthorizationFilter;
+import com.electr.electricalconsciousness.authentication.filters.JwtAuthenticationEntryPoint;
+import com.electr.electricalconsciousness.authentication.filters.JwtAuthorizationFilter;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.annotation.Bean;

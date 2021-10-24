@@ -1,6 +1,6 @@
 package com.electr.electricalconsciousness.domain.models;
 
-import com.electr.electrical.domain.enums.StatusUser;
+import com.electr.electricalconsciousness.domain.enums.StatusUser;
 import lombok.*;
 
 import javax.persistence.*;
@@ -26,9 +26,6 @@ public class Usuario {
 
     @OneToOne
     private MediaPicture mediaPicture;
-
-    @OneToMany(mappedBy = "usuario", fetch = FetchType.LAZY)
-    private List<Simulacao> simulacoes = new ArrayList<>();
 
     @Enumerated(EnumType.STRING)
     private StatusUser status;

@@ -1,6 +1,6 @@
 package com.electr.electricalconsciousness.domain.dto.simulacao;
 
-import com.electr.electrical.domain.dto.eletrodomesticos.EletrodomesticoDTO;
+import com.electr.electricalconsciousness.domain.dto.eletrodomesticos.EletroSimulacaoDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +17,7 @@ import java.util.List;
 public class SimulacaoDTO {
 
     private Long simulacaoId;
-    private List<EletrodomesticoDTO> eletrodomesticos = new ArrayList<>();
+    private List<EletroSimulacaoDTO> eletrodomesticos = new ArrayList<>();
 
     private float totalValorPorMes;
     private float totalKwhPorMes;

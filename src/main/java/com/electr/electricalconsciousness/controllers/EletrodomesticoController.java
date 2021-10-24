@@ -1,12 +1,13 @@
 package com.electr.electricalconsciousness.controllers;
 
-import com.electr.electrical.domain.dto.eletrodomesticos.EletrodomesticoFullDTO;
-import com.electr.electrical.domain.services.EletrodomesticoService;
+import com.electr.electricalconsciousness.domain.dto.eletrodomesticos.EletrodomesticoFullDTO;
+import com.electr.electricalconsciousness.domain.services.EletrodomesticoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 @RequestMapping("/eletrodomesticos")
@@ -33,7 +34,7 @@ public class EletrodomesticoController {
                                                     @RequestParam("tempoDeUso") Integer tempo,
                                                     @RequestParam("quantidade") Integer quantidade,
                                                     @RequestParam("diasPorMes") Integer diasPorMes
-                                    ){
+                                    ) throws IOException {
 
         return eletrodomesticoService.salvarEletrodomestico(avatar, nome, potencia, tempo, quantidade, diasPorMes);
     }

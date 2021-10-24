@@ -21,10 +21,7 @@ public class Simulacao {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long simulacaoId;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    private Usuario usuario;
-
-    @OneToMany(mappedBy = "simulacao", fetch = FetchType.LAZY)
+    @OneToMany
     private List<Eletrodomestico> eletrodomesticos = new ArrayList<>();
 
     @Column(scale = 2, precision = 10)

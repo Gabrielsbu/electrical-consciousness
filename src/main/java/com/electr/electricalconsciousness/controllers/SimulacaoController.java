@@ -1,8 +1,9 @@
 package com.electr.electricalconsciousness.controllers;
 
-import com.electr.electrical.domain.dto.simulacao.CreateSimulacaoDTO;
-import com.electr.electrical.domain.dto.simulacao.SimulacaoDTO;
-import com.electr.electrical.domain.services.SimulacaoService;
+import com.electr.electricalconsciousness.domain.dto.simulacao.CreateSimulacaoDTO;
+import com.electr.electricalconsciousness.domain.dto.simulacao.SimulacaoDTO;
+import com.electr.electricalconsciousness.domain.models.Simulacao;
+import com.electr.electricalconsciousness.domain.services.SimulacaoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
